@@ -4,8 +4,7 @@
 
 number = int(input('Enter a number: '))
 
-for i in range (0,number+1):
-    if number%number = 0:
-        print(number)
-    number = number -1
+for i in range(1,number+1):
+    if number%i==0:
+        print(i)
     
