@@ -4,6 +4,11 @@
 
 number = int(input('Enter a number: '))
 
-for i in range(1,number+1):
+total = 0
+for i in range(1,number):
     if number%i==0:
-        print(i)
+        total = total+i
+    if total = number:
+        print('Perfect')
+    else:
+        print('Not perfect')
