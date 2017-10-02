@@ -8,3 +8,5 @@ month = date.today().month
 year = date.today().year
 
 print(month, day, year)
+
+weekday(year, month, day)
