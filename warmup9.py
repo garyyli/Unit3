@@ -5,15 +5,15 @@
 word = input('Enter a word: ')
 
 for ch in word:
-    if ch = 'a':
+    if ch == 'a':
         print(ch.upper())
-    if ch = 'e':
+    if ch == 'e':
         print(ch.upper())
-    if ch = 'i':
+    if ch == 'i':
         print(ch.upper())
-    if ch = 'o':
+    if ch == 'o':
         print(ch.upper())
-    if ch = 'u':
+    if ch == 'u':
         print(ch.upper())
     else:
         print(ch)
