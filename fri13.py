@@ -6,7 +6,7 @@ from datetime import date
 day = date.today().day
 month = date.today().month
 year = date.today().year
-print(month, day, year)
+print(month, '/', day, '/',year)
 
 friday13 = 0
 
@@ -16,7 +16,7 @@ if day>13 and month!=12:
 while friday13<=10:
     if weekday(year,month,13) ==4:
         friday13 = friday13+1
-        print(month, '13', year)
+        print(month,'/','13','/',year)
     if month!=12:
         month= month +1
     else:
