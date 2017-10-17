@@ -11,5 +11,10 @@ while i<33:
     i=i+2
 
 total = 0
-for j in range (13,331,2):
+for j in range (13,332,2):
     total=total+j
+print(total)
+
+while True:
+    word = input('Enter a word: ')
+    if word
